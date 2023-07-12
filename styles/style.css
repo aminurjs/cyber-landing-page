@@ -1,0 +1,154 @@
+
+/* ======================
+   Common styles
+   ====================== */
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #110636;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.primary_btn{
+    padding: 10px 35px;
+    color: #fff;
+    background-color: #339EF5;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+.primary_btn:hover{
+    background-color: #D7773B;
+}
+
+/* ======================
+   Header area styles
+   ====================== */
+
+    header{
+        background-image: linear-gradient(to right, #1C0B4E, #100636);
+    }
+
+/* ======================
+   Header area styles
+   ====================== */
+
+   nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+   }
+   nav h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #D7773B;
+   }
+   nav h2 span{
+    font-size: 40px;
+    font-weight: 700;
+    color: #e0d5d5;
+   }
+   nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   }
+   nav ul li{
+    list-style: none;
+   }
+   nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+   }
+   nav ul li a:hover{
+    color: #339EF5;
+   }
+   
+
+/* ======================
+   Banner area styles
+   ====================== */
+
+   .banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0;
+   }
+   .b_cont{
+    width: 40%;
+   }
+   .b_cont h1{
+    font-size: 60px;
+    color: #D7773B;
+    font-weight: 700;
+   }
+   .b_cont h2{
+    font-size: 45px;
+    color: #339EF5;
+    font-weight: 600;
+    margin-bottom: 10px;
+   }
+   .b_cont p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 20px;
+   }
+   .b_img{
+    width: 60%;
+   }
+   .b_img img{
+    width: 100%;
+    margin-left: 50px;
+    display: inline-block;
+   }
+   .follow{
+    position: relative;
+    top: 200px;
+    display: flex;
+   }
+   .follow p::after{
+    content: '';
+    display: table;
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    background-color: #fff;
+    top: 35%;
+    left: 100px;
+   }
+   .follow ul{
+    display: flex;
+    align-items: start;
+    list-style: none;
+    gap: 20px;
+    margin-left: 90px;
+   }
+   .follow ul a{
+    color: #339EF5;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+   }
+   .follow ul a:hover{
+    color: #D7773B;
+    font-size: 20px;
+   }
+
+
